@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Delivery</title>
+    <style>
+        body {
+            background: url('https://i.postimg.cc/KzXkJy2B/Background-1.png') no-repeat center center fixed;
+            background-size: 100% 100%;
+            text-align: center;
+            font-family: 'Old English Text MT', cursive;
+            position: relative;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .delivery-text {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .accept-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+        }
+        .accept-button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <p class="delivery-text">𝙷𝚎𝚛𝚎'𝚜 𝚊 𝚜𝚙𝚎𝚌𝚒𝚊𝚕 𝚍𝚎𝚕𝚒𝚟𝚎𝚛𝚢 𝚏𝚘𝚛 𝚢𝚘𝚞.</p>
+    <button class="accept-button" onclick="redirectToPage2()">Accept</button>
+<script>
+    function redirectToPage2() {
+        window.location.href = 'page2.html'; // Redirects to page2.html
+    }
+</script>
+</body>
+</html>
